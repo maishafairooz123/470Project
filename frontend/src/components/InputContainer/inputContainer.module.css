@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    margin-bottom: 0.5rem;
+    padding-top: 0.3rem;
+
+
+}
+
+.label {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: purple; 
+    font-size: 1rem;
+}
+
+.content {
+    padding: 0 0.5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

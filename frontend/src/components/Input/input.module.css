@@ -1,0 +1,19 @@
+.input {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: #8f8f8f;
+    font-size: 0.75rem;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 75vh;
+}
+
+.btn {
+    font-family: monospace;
+    border: none;
+    outline: none;
+    height: 2rem;
+    font-size: 100%;
+    border-radius: 0.8rem;
+    width: 12.5%;
+    margin: 1rem auto;
+    color: purple;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+.btn:hover {
+      cursor: pointer;
+      color: #f0f0f0;
+      background-color: purple;
+  }

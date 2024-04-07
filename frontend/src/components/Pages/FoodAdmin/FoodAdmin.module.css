@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.list {
+    margin: 1rem;
+    max-width: 70rem;
+
+}
+
+a.addfood {
+    display: inline-block;
+    background-color: purple;
+    color: #f0f0f0;
+    padding:0.7rem;
+    margin: 0.8rem, 0;
+    border-radius: 1.5rem;
+    transition: background-color 0.3s ease;
+
+}
+
+a.addfood:hover {
+    color: purple;
+    background-color: #f0f0f0;
+
+}
+
+.foodlist {
+    display: grid;
+    grid-template-columns:
+      minmax(5rem, 7rem)
+      minmax(10rem, 20rem)
+      minmax(5rem, 10rem)
+      minmax(5rem, 10rem);
+    font-size: 1.2rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foodlist img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100rem;
+    object-fit: cover;
+  }
+
+  .actions a {
+    cursor: pointer;
+    color: purple;
+  }

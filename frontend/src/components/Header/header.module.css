@@ -1,0 +1,55 @@
+
+.header {
+    background : white;
+    padding: 0;
+    border-bottom: solid purple;
+}
+
+.header a {
+    color: purple;
+    transition: background-color 0.3s ease;    
+}
+
+.header a:hover {
+    background: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.header ul a {
+    padding: 1rem;
+    display: inline-block;
+}
+
+.header button {
+    background: none;
+    font-family: monospace;
+    border: none;
+    color: purple;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+    background: purple;
+    color: white;
+}

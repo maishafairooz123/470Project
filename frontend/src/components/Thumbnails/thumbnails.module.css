@@ -1,0 +1,67 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    height: 22.5rem;
+    width: 20rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+    height: 14.5rem;
+}
+
+.content {
+    margin-top: 0.3rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    height: 7rem;
+}
+
+.add {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+}
+
+.cartbut {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #f0f0f0;
+    color: purple;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cartbut:hover {
+    background-color: purple; 
+    color: #f0f0f0; 
+}
+
+.description {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.price {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
